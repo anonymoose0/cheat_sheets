@@ -1,7 +1,8 @@
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{multirow}
-\usepackage{fullpage}
+\usepackage{stackengine}
+\usepackage[left = 0.79 in, right = 0.79 in, top = 0.79 in, bottom = 0.79 in]{geometry}
 
 \begin{document}
 \begin{center}
@@ -74,9 +75,9 @@
     \hline
 \end{tabular}
 
-\smallskip
 
-\section*{Pronouns}
+
+\section*{\underline{Pronouns}}
 
 \begin{tabular}{ | c | c | c | c |}
     \hline
@@ -114,11 +115,11 @@
     \hline
     yourself & dich & dir \\
     \hline
-    himself & \multicolumn{2}{ | c | }{}  \\
-    \hline
-    herself &  &  \\
-    \hline
-    itself &  &  \\
+    himself & \multicolumn{2}{ | c | }{\multirow{3}{*}{\Huge{sich}}}  \\
+    \cline{1-1}
+    herself & \multicolumn{2}{ c |}{} \\
+    \cline{1-1}
+    itself & \multicolumn{2}{ c |}{} \\
     \hline
     ourselves & \multicolumn{2}{ | c | }{uns} \\
     \hline
@@ -131,27 +132,148 @@
 \end{tabular}
 
 
-\section*{\underline{Pronouns}}
-
-
 
 \section*{\underline{Prepositions}}
 
+\begin{tabular}{ | c | c | c | c | c | c | c | c | }
+    \hline
+    \multicolumn{2}{ | c |}{\underline{\textbf{Akkusitiv}}} & \multicolumn{2}{ | c |}{\underline{\textbf{Beide}}} & \multicolumn{2}{ | c |}{\underline{\textbf{Dativ}}} & \multicolumn{2}{ | c |}{\underline{\textbf{Genitiv}}} \\
+    \hline
+    \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} \\
+    \hline
+    through & durch & \stackanchor{on}{(horizontal)} & auf & out of & aus & instead of & anstatt \\
+    \hline
+    for & für & \stackanchor{on}{\stackanchor{(vertical/}{aquious)}} & an & except for & außer & despite & trotz \\
+    \hline
+    against & gegen & over & über & \stackanchor{by/at/}{near} & bei & while & während \\
+    \hline
+    without & ohne & under & unter & with & mit & because of & wegen \\
+    \hline
+    at/around & um & behind & hinter & after/to & nach & outside of & außerhalb \\
+    \hline
+    until & bis & between & zwischen & since & seit & inside of & innerhalb \\
+    \hline
+    along & entlang & in & in & of/from & von & & \\
+    \hline
+     & & in front of & vor & to & zu & & \\
+    \hline
+     & & beside & neben & about & gegen & & \\
+     \hline
+\end{tabular}
 
 
-\section*{\underline{Questions Words}}
+
+\section*{\underline{Question Words}}
+
+\begin{tabular}{ | c | c | c | c | c | c | c | c | }
+    \hline
+    \multicolumn{2}{ | c | }{\underline{\textbf{Nominativ}}} & \multicolumn{2}{ | c | }{\underline{\textbf{Akkusitiv}}} & \multicolumn{2}{ | c | }{\underline{\textbf{Dativ}}} & \multicolumn{2}{ | c | }{\underline{\textbf{Genitiv}}} \\
+    \hline
+    \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} \\
+    \hline
+    who & wer & whom & wen & whom & wem & whose & wessen \\
+    \hline
+    what & was & & & & & \stackanchor{for}{what reason} & weswegen \\
+    \hline
+    where & wo & & & & & & \\
+    \hline
+    why & warum & & & & & & \\
+    \hline
+    how & wie & & & & & & \\
+    \hline
+    which & welch- & & & & & & \\
+    \hline
+\end{tabular}
 
 
 
-\section*{\underline{Modal Verbs}}
+\section*{\underline{Verbs}}
+
+\begin{tabular}{ | c | c |}
+    \hline
+    \multicolumn{2}{ | c | }{\underline{\textbf{Modal Verbs}}} \\
+    \hline
+    \underline{\textbf{English}} & \underline{\textbf{Deutsch}} \\
+    \hline
+    to like & mögen \\
+    \hline
+    to have to, must & müssen \\
+    \hline
+    to be allowed to, may & dürfen \\
+    \hline
+    to be able to, can & können \\
+    \hline
+    to be supposed to, should & sollen \\
+    \hline
+    to want & wollen \\
+    \hline
+\end{tabular}
 
 
+\smallskip
 
-\section*{\underline{Auxillary Verbs}}
+\begin{tabular}{ | c | c |}
+    \hline
+    \multicolumn{2}{ | c | }{\underline{\textbf{Auxillary Verbs}}} \\
+    \hline
+    \underline{\textbf{English}} & \underline{\textbf{Deutsch}} \\    
+    \hline
+    to be & sein \\
+    \hline
+    to have & haben \\
+    \hline
+    to become & werden \\
+    \hline
+\end{tabular}
 
 
 
 \section*{\underline{Conjunctions}}
+
+\begin{tabular}{ | c | c | c | c | }
+    \hline
+    \multicolumn{2}{ | c | }{\underline{\textbf{Coordinating}}} & \multicolumn{2}{ | c | }{\underline{\textbf{Subordinating}}} \\
+    \hline
+    \underline{\textbf{English}} & \underline{\textbf{Deutsch}} & \underline{\textbf{English}} & \underline{\textbf{Deutsch}} \\
+    \hline
+    and & und & when/if & wenn \\
+    \hline
+    or & oder & in case & falls \\
+    \hline
+    because & denn & if (boolean) & ob \\
+    \hline
+    but & aber & as if & als ob \\
+    \hline
+    \stackanchor{but/however/}{rather} & sondern & although & \stackanchor{obwohl/}{obschon/obgleich} \\
+    \hline
+    alas & allein & because & weil/da \\
+    \hline
+    however & doch & so that & damit \\
+    \hline
+    with relation to & beziehungsweise & that & dass \\
+    \hline
+     & & by means of & dadurch dass \\
+    \hline
+     & & \stackanchor{while/}{meanwhile/whereas} & wohingegen \\
+    \hline
+     & & before & bevor/ehe \\
+    \hline
+     & & until & bis \\
+    \hline
+     & & while & während \\
+    \hline
+     & & as long as & solange \\
+    \hline
+     & & as soon as & sobald \\
+    \hline
+     & & as often as & sooft \\
+    \hline
+     & & after that & nachdem \\
+    \hline
+     & & since then & seit/seitdem \\
+     \hline
+\end{tabular}
+
 
 
 \end{center}
